@@ -15,4 +15,10 @@ class Ex1PascalsTriangleSpec extends FlatSpec with Matchers {
       Ex1PascalsTriangle.pascal(-1, -1)
     }
   }
+
+  it should "work correctly for big values" in {
+    Ex1PascalsTriangle.pascal(10, 5) should equal(252)
+    Ex1PascalsTriangle.pascal(20, 7) should equal(77520)
+    Ex1PascalsTriangle.pascal(100, 100) should equal(1)
+  }
 }
