@@ -52,3 +52,22 @@ fibonacci(0) = 1
 fibonacci(2) = 2
 fibonacci(6) = 13
 ```
+
+
+### 3. Reverse Polish notation
+
+A Reverse Polish notation is a mathematical notation in which every operator follows all of its operands. For example ```2 + 2``` would be translated to ```2 2 +```,
+and ```( 2 + 3 ) * 5``` would become ```2 3 + 5 *```.
+
+Write a function that will evaluate an expression in Reverse Polish notation.
+
+```
+def rpn(expr: String): Int
+```
+
+Example:
+
+```
+rpn("2 2 +") = 4
+rpn("2 3 + 5 *") = 25
+```
