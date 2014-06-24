@@ -1,5 +1,11 @@
 object Ex1PascalsTriangle {
 
+  /**
+   * Calculates value of the field at the given spot.
+   * @param row field row (zero-based)
+   * @param column field columnt (zero-based)
+   * @return Field value
+   */
   def pascal(row: Int, column: Int): Int = {
     if (row < 0 || column < 0 || column > row)
       throw new IllegalArgumentException("Invalid position")
