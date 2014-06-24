@@ -2,7 +2,7 @@
 
 A small collection of interesting Scala exercises I found on a web.
  
-Most of solutions are test-driven developed.
+Most solutions are test-driven developed.
 
 
 ### 1. Pascal's triangle
