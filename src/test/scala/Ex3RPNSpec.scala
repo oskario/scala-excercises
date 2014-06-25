@@ -1,6 +1,6 @@
 import org.scalatest._
 
-class Ex3RPN extends FlatSpec with Matchers {
+class Ex3RPNSpec extends FlatSpec with Matchers {
   "Exercise 3" should
     "work for simple examples" in {
     Ex3RPN.rpn("2 2 +") should equal(4)
@@ -23,7 +23,7 @@ class Ex3RPN extends FlatSpec with Matchers {
   }
 
   it should "work correctly for more complicated examples" in {
-    Ex3RPN.rpn("2 2 + 2 2 + +") should equal(4)
-    Ex3RPN.rpn(" 2 10 + 2 / 14 3 - 4 * + 2 /") should equal(11)
+    Ex3RPN.rpn("2 2 + 2 2 + +") should equal(8)
+    Ex3RPN.rpn(" 2 10 + 2 / 14 3 - 4 * + 2 /") should equal(25)
   }
 }
