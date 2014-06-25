@@ -31,7 +31,7 @@ pascal(3, 2) = 3
 ```
 
 
-### 2. Fibonacci sequence
+### 2. Fibonacci sequence sum
 
 A fibonacci sequence is a sequence of numbers in which every number is the sum of two previous numbers, like that:
 
@@ -39,18 +39,19 @@ A fibonacci sequence is a sequence of numbers in which every number is the sum o
 1 1 2 3 5 8 13 21 34 ...
 ```
 
-Write a function that will recursively calculate the value at the given position (zero-based).
+Write a function that will calculate the sum of the first n elements.
 
 ```
-def fibonacci(n: Int): Int
+def fibonacciSum(n: Int): Int
 ```
 
 Example:
 
 ```
-fibonacci(0) = 1
-fibonacci(2) = 2
-fibonacci(6) = 13
+fibonacci(0) = 0
+fibonacci(1) = 1
+fibonacci(3) = 4
+fibonacci(7) = 34
 ```
 
 
