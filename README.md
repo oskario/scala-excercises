@@ -4,6 +4,13 @@ A small collection of interesting Scala exercises I found on a web.
  
 Most solutions are test-driven developed.
 
+## Testing
+
+The project uses Simple Build Tool (SBT). To execute the tests simply do:
+
+```
+$ sbt test
+```
 
 ### 1. Pascal's triangle
 
