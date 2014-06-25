@@ -12,6 +12,8 @@ The project uses Simple Build Tool (SBT). To execute the tests simply do:
 $ sbt test
 ```
 
+## Exercises
+
 ### 1. Pascal's triangle
 
 The figure below is to be known as a Pascal's Triangle (each value is calculated as a sum of two values immediately above it):
@@ -58,7 +60,7 @@ Example:
 fibonacciSum(0) = 0
 fibonacciSum(1) = 1
 fibonacciSum(3) = 4
-fibonacciSum(7) = 34
+fibonacciSum(7) = 33
 ```
 
 
