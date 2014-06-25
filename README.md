@@ -48,10 +48,10 @@ def fibonacciSum(n: Int): Int
 Example:
 
 ```
-fibonacci(0) = 0
-fibonacci(1) = 1
-fibonacci(3) = 4
-fibonacci(7) = 34
+fibonacciSum(0) = 0
+fibonacciSum(1) = 1
+fibonacciSum(3) = 4
+fibonacciSum(7) = 34
 ```
 
 
