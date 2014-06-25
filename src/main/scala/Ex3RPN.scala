@@ -1,6 +1,3 @@
-import java.lang.NumberFormatException
-import scala.util.Try
-
 object Ex3RPN {
 
   /**
@@ -25,14 +22,7 @@ object Ex3RPN {
         case "-" => evaluate(input.tail, eval((a, b) => b - a, stack))
         case "*" => evaluate(input.tail, eval((a, b) => b * a, stack))
         case "/" => evaluate(input.tail, eval((a, b) => b / a, stack))
-        case char =>
-//          try {
-            evaluate(input.tail, char.toInt :: stack)
-//          } catch {
-//            case ex: NumberFormatException =>
-//              throw new IllegalArgumentException(s"Illegal token in expression: $char")
-//          }
-
+        case char => evaluate(input.tail, char.toInt :: stack)
       }
     } else {
       if (stack.size == 1) stack.head
