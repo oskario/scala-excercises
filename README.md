@@ -39,7 +39,7 @@ A fibonacci sequence is a sequence of numbers in which every number is the sum o
 1 1 2 3 5 8 13 21 34 ...
 ```
 
-Write a function that will calculate the sum of the first n elements.
+Write a function that will calculate the sum of first n elements.
 
 ```
 def fibonacciSum(n: Int): Int
