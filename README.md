@@ -87,14 +87,14 @@ rpn("2 3 + 5 *") = 25
 Write a recursive function that check whether parentheses are balanced in given sentence.
 
 ```
-def balance(sentence: String): Boolean
+def isBalanced(sentence: String): Boolean
 ```
 
 Example:
 
 ```
-balance("(this is balanced)") = true
-balance("(oh, this (is) balanced (too))") = true
-balance("(this is (not balanced)") = false
-balance(")()()()(") = false
+isBalanced("(this is balanced)") = true
+isBalanced("(oh, this (is) balanced (too))") = true
+isBalanced("(this is (not balanced)") = false
+isBalanced(")()()()(") = false
 ```
