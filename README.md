@@ -81,3 +81,20 @@ Example:
 rpn("2 2 +") = 4
 rpn("2 3 + 5 *") = 25
 ```
+
+### 4. Parentheses balancing
+
+Write a recursive function that check whether parentheses are balanced in given sentence.
+
+```
+def balance(sentence: String): Boolean
+```
+
+Example:
+
+```
+balance("(this is balanced)") = true
+balance("(oh, this (is) balanced (too))") = true
+balance("(this is (not balanced)") = false
+balance(")()()()(") = false
+```
