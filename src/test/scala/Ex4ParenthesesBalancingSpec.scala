@@ -1,6 +1,6 @@
 import org.scalatest._
 
-class Ex4ParenthesesBalancing extends FlatSpec with Matchers {
+class Ex4ParenthesesBalancingSpec extends FlatSpec with Matchers {
   "Exercise 3" should
     "work for simple examples" in {
     Ex4ParenthesesBalancing.isBalanced("(this is balanced)") should equal(true)
